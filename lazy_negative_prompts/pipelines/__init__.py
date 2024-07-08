@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from diffusers import DiffusionPipeline, StableDiffusionPipeline
-from stable_diffusion import enable_stable_diffusion_lazy_negative
+from .stable_diffusion import enable_stable_diffusion_lazy_negative
 
 
 def enable_lazy_negative(pipe: DiffusionPipeline) -> bool:
