@@ -10,8 +10,7 @@ from diffusers.image_processor import PipelineImageInput
 from diffusers.models import ControlNetModel
 from diffusers.pipelines.stable_diffusion.pipeline_output import StableDiffusionPipelineOutput
 from diffusers.pipelines.controlnet.multicontrolnet import MultiControlNetModel
-from diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion
-import retrieve_timesteps
+from diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion import retrieve_timesteps
 from diffusers.utils.torch_utils import is_compiled_module, is_torch_version
 
 
